@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Practice for block chain tutorial.",
   "scripts": {
-    "build" : "tsc"
+    "build" : "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start" : "node build/index.js"
   },
   "keywords": [],
   "author": "",
